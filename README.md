@@ -4,7 +4,7 @@ Prever o desempenho dos alunos no ENEM 2020 com base nos resultados do ENEM 2019
 
 # Objetivo
 
-Conhecer o banco de dados e extrair insights a respeito das relações das notas com as diferentes variáveis, como idade, sexo, tipo de escola, etc. Depois desenvolver uma função que faça a previsão de notas futuras baseado nas notas no presente dataset, sendo possível faze-las baseado em grupos específicos. Por exemplo, prever as notas das mulheres com base somente nas notas das mulheres do dataset.
+O objetivo é conhecer o banco de dados e extrair insights sobre as relações das notas com diferentes variáveis, como idade, sexo, tipo de escola, etc. Em seguida, desenvolver uma função que faça a previsão das notas futuras com base nas notas presentes no dataset, permitindo fazê-las com grupos específicos. Por exemplo, prever as notas das mulheres com base apenas nas notas das mulheres presentes no dataset.
 
 ## Algumas perguntas que serão respondidas:
 
