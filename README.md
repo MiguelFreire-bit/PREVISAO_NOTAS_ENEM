@@ -87,7 +87,8 @@ Esse gráfico de densidade já é diferente, muito provavelmente por haver divis
 
 Uma observação importante é que nas escolas públicas não há um pico tão significativo em 17 anos, o que pode indicar que os alunos de escolas públicas estão se formando mais tarde ou que não fazem o Enem ao concluir o ensino médio
 
-![image.png](attachment:image.png)
+![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/02e618a8-69b6-4b88-9ecb-32bff8dbd8c9)
+
 fonte: https://www1.folha.uol.com.br/educacao/2022/11/so-1-em-cada-4-alunos-que-sai-da-escola-publica-faz-o-enem.shtml
 
 ## Modelagem 
