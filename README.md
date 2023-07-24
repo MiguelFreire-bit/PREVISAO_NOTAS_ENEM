@@ -32,7 +32,7 @@ Antes de executar o código, certifique-se de ter as seguintes bibliotecas insta
 ## Resultados
 ## Vamos responder as perguntas:
 
-1. As notas de diferentes provas se comportam da mesma maneira? As notas de redação possuem outro padrão?
+## 1. As notas de diferentes provas se comportam da mesma maneira? As notas de redação possuem outro padrão?
 
 Minha intenção é remover todas as notas 0 de redação do dataset. O motivo é que existe muitos críterios para zerar a prova de Redação que são COMPLETAMENTE diferentes das DEMAIS provas. O que faz que signifiquem coisas diferentes
 
@@ -40,20 +40,20 @@ A prova de redação no ENEM possui critérios de avaliação diferentes das dem
 
 É coerente remover as notas de redação zero se pretendo usar esses dados como entrada para um modelo de regressão, uma vez que essas notas podem distorcer as relações de correlação e impactar negativamente a qualidade do modelo
 
-2. Qual é a distribuição de Homens e Mulheres no dataset?
+## 2. Qual é a distribuição de Homens e Mulheres no dataset?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/17acd334-88f7-4bcc-bd28-f288b892e2b8)
 
 59.5% dos estudantes dessa amostra são Mulheres, 40.5% são Homens
 
-3. Qual diferença das notas entre homens e mulheres?
+## 3. Qual diferença das notas entre homens e mulheres?
 
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/7cc83294-ed90-4c5d-b171-4ac999eb0490)
 
 Os homens em geral possuem maiores médias em diferentes provas, exceto na Redação
 
-4. Qual a distribuição de idade entre os candidatos? O que justifica as idades mais recorrentes? Para homens e mulheres seguem o mesmo padrão?
+## 4. Qual a distribuição de idade entre os candidatos? O que justifica as idades mais recorrentes? Para homens e mulheres seguem o mesmo padrão?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/67801e77-9bbb-4424-a110-8898b0c3c2b9)
 
@@ -61,25 +61,25 @@ Os homens em geral possuem maiores médias em diferentes provas, exceto na Reda�
 
 Aqui podemos ter uma noção de como os dados são significatvos. Dentro do contexto do Enem é comum que a maioria dos candidatos tenha idade igual ou proxima a média de que se conclui o ENSINO MÉDIO. Nota-se essa têndencia no gráfico de densidade. Soma-se a isso o fato de que mesmo havendo bem menos homens que mulheres eles apresentam DISTRIBUIÇÃO parecida, como deveria ser para uma amostra SIGNIFICATIVA
 
-5. Qual nota média de cada prova por idade? varia muito ou pouco?
+## 5. Qual nota média de cada prova por idade? varia muito ou pouco?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/bffaf704-1251-467e-a2d5-1b0f120ada9e)
 
 entre 17 e 21 anos (que representa 71,45% de todos os alunos da base de dados) as diferenças não são tão altas.
 
-6. Qual a distribuição dos candidatos entre escolas públicas ou privadas?
+## 6. Qual a distribuição dos candidatos entre escolas públicas ou privadas?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/a3267961-a142-44d4-ab43-4145062aa712)
 
 A maioria das pessoas dessa amostra não responderam, o motivo é desconhecido. Porém, todos os treineiros (fazem a prova para treinar e não efetivamente para concorrer) não responderam esse questionamento. Talvez por essas informações não serem solicitadas a eles.
 
-7. Qual nota média de cada prova por tipo de escola? varia muito ou pouco?
+## 7. Qual nota média de cada prova por tipo de escola? varia muito ou pouco?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/1a89b48d-47d3-49c7-b7ae-098df1473911)
 
 Os alunos das escola privadas possuem maiores notas em todas as provas.
 
-8. Qual a relação entre a idade e o tipo de escola que o candidato frequentou?
+## 8. Qual a relação entre a idade e o tipo de escola que o candidato frequentou?
 
 ![image](https://github.com/MiguelFreire-bit/PREVISAO_NOTAS_ENEM/assets/72529654/d7bfbfc2-f6a9-420a-9268-e26e44726bbf)
 
